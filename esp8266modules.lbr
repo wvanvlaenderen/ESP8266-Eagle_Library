@@ -205,7 +205,7 @@
 <smd name="GPIO0" x="-5.2" y="-7.2" dx="1.5" dy="1" layer="1"/>
 <smd name="ANT" x="7.4" y="4.8" dx="1.5" dy="1" layer="1"/>
 <smd name="CH_PD" x="7.4" y="2.8" dx="1.5" dy="1" layer="1"/>
-<smd name="GPIO18" x="7.4" y="0.8" dx="1.5" dy="1" layer="1"/>
+<smd name="GPIO16" x="7.4" y="0.8" dx="1.5" dy="1" layer="1"/>
 <smd name="URXD" x="7.4" y="-1.2" dx="1.5" dy="1" layer="1"/>
 <smd name="UTXD" x="7.4" y="-3.2" dx="1.5" dy="1" layer="1"/>
 <smd name="NC" x="7.4" y="-5.2" dx="1.5" dy="1" layer="1"/>
@@ -1433,7 +1433,7 @@ SWITCH</text>
 <pin name="NC" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="UTXD" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="URXD" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO18" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO16" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="CH_PD" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="ANT" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
 <wire x1="-12.7" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
@@ -2024,7 +2024,7 @@ ESP8266 module</description>
 <connect gate="G$1" pin="GPIO13" pad="GPIO13"/>
 <connect gate="G$1" pin="GPIO14" pad="GPIO14"/>
 <connect gate="G$1" pin="GPIO15" pad="GPIO15"/>
-<connect gate="G$1" pin="GPIO18" pad="GPIO18"/>
+<connect gate="G$1" pin="GPIO16" pad="GPIO16"/>
 <connect gate="G$1" pin="GPIO2" pad="GPIO2"/>
 <connect gate="G$1" pin="NC" pad="NC"/>
 <connect gate="G$1" pin="URXD" pad="URXD"/>
