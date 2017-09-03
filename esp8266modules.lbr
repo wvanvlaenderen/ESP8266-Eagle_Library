@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1070,6 +1070,125 @@ MICRO</text>
 <text x="-8.255" y="-15.24" size="0.635" layer="25" align="center">RESET
 SWITCH</text>
 </package>
+<package name="ESP-M2">
+<description>ESP8285 Module Model M2</description>
+<wire x1="5.800003125" y1="9.20000625" x2="5.800003125" y2="-10.80000625" width="0.3048" layer="21"/>
+<wire x1="5.800003125" y1="-10.80000625" x2="-6.50000625" y2="-10.80000625" width="0.3048" layer="21"/>
+<wire x1="-6.50000625" y1="-10.80000625" x2="-6.50000625" y2="9.20000625" width="0.3048" layer="21"/>
+<wire x1="-6.50000625" y1="9.20000625" x2="5.800003125" y2="9.20000625" width="0.3048" layer="21"/>
+<smd name="VCC" x="-6.800003125" y="-9.40000625" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="GND" x="6.000003125" y="-9.40000625" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="15" x="-6.800003125" y="-7.900003125" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="2" x="6.000003125" y="-7.900003125" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="13" x="-6.800003125" y="-6.400003125" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="0" x="6.000003125" y="-6.400003125" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="4" x="6.000003125" y="-4.900003125" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="5" x="6.000003125" y="-3.4" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="RX" x="6.000003125" y="-1.9" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="TX" x="6.000003125" y="-0.400003125" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="RST" x="6.000003125" y="1.1" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="12" x="-6.800003125" y="-4.900003125" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="14" x="-6.800003125" y="-3.4" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="EN" x="-6.800003125" y="-1.9" dx="1.778" dy="0.9144" layer="1"/>
+<smd name="ADC" x="-6.800003125" y="-0.4" dx="1.778" dy="0.9144" layer="1"/>
+<wire x1="-5.662" y1="3.52" x2="-5.662" y2="8.42" width="0.6096" layer="21"/>
+<wire x1="-5.662" y1="8.42" x2="-4.762" y2="8.42" width="0.6096" layer="21"/>
+<wire x1="-4.762" y1="8.42" x2="-4.762" y2="4.72" width="0.6096" layer="21"/>
+<wire x1="-4.762" y1="4.72" x2="-3.762" y2="4.72" width="0.6096" layer="21"/>
+<wire x1="-3.762" y1="4.72" x2="-3.762" y2="8.32" width="0.6096" layer="21"/>
+<wire x1="-3.762" y1="8.32" x2="-2.562" y2="8.32" width="0.6096" layer="21"/>
+<wire x1="-2.562" y1="8.32" x2="-2.562" y2="4.72" width="0.6096" layer="21"/>
+<wire x1="-2.562" y1="4.72" x2="-1.362" y2="4.72" width="0.6096" layer="21"/>
+<wire x1="-1.362" y1="4.72" x2="-1.362" y2="8.32" width="0.6096" layer="21"/>
+<wire x1="-1.362" y1="8.32" x2="-0.262" y2="8.32" width="0.6096" layer="21"/>
+<wire x1="-0.262" y1="8.32" x2="-0.262" y2="4.82" width="0.6096" layer="21"/>
+<wire x1="-0.262" y1="4.82" x2="0.838" y2="4.82" width="0.6096" layer="21"/>
+<wire x1="0.838" y1="4.82" x2="0.838" y2="8.32" width="0.6096" layer="21"/>
+<wire x1="0.838" y1="8.32" x2="4.838" y2="8.32" width="0.6096" layer="21"/>
+<wire x1="-5.662" y1="3.42" x2="-5.662" y2="2.82" width="0.6096" layer="21"/>
+<wire x1="-5.662" y1="2.82" x2="0.838" y2="2.82" width="0.6096" layer="21"/>
+<text x="-3.81" y="-10.16" size="0.8128" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="ESP-M3">
+<description>ESP8285 Model M3</description>
+<wire x1="5.500003125" y1="11.710003125" x2="5.500003125" y2="-7.800003125" width="0.3048" layer="21"/>
+<wire x1="5.500003125" y1="-7.800003125" x2="5.500003125" y2="-7.80000625" width="0.3048" layer="21"/>
+<wire x1="-10.50000625" y1="-7.80000625" x2="-10.50000625" y2="-7.800003125" width="0.3048" layer="21"/>
+<wire x1="-10.50000625" y1="-7.800003125" x2="-10.50000625" y2="11.710003125" width="0.3048" layer="21"/>
+<wire x1="-10.50000625" y1="11.710003125" x2="5.500003125" y2="11.710003125" width="0.3048" layer="21"/>
+<smd name="RST" x="-9.00000625" y="-8.100003125" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="RXD" x="-6.40000625" y="-8.100003125" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="TXD" x="-3.80000625" y="-8.100003125" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="GND" x="-1.20000625" y="-8.100003125" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="VCC" x="1.399996875" y="-8.100003125" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="EN" x="3.999996875" y="-8.100003125" dx="2.54" dy="1.27" layer="1" rot="R90"/>
+<smd name="2" x="-10.80000625" y="-1.7" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="0" x="-10.80000625" y="0.9" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="4" x="-10.80000625" y="3.5" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="13" x="5.800003125" y="-1.8" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="14" x="5.800003125" y="0.8" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<smd name="16" x="5.800003125" y="3.4" dx="2.54" dy="1.27" layer="1" rot="R180"/>
+<wire x1="-10.50000625" y1="-7.800003125" x2="5.500003125" y2="-7.800003125" width="0.3048" layer="21"/>
+<text x="-7.155" y="-4.899" size="1.016" layer="21" rot="R90">&gt;NAME</text>
+<wire x1="-9.144" y1="6.096" x2="-9.144" y2="10.922" width="0.8128" layer="21"/>
+<wire x1="-9.144" y1="10.922" x2="-4.826" y2="10.922" width="0.8128" layer="21"/>
+<wire x1="-4.826" y1="10.922" x2="-4.826" y2="8.382" width="0.8128" layer="21"/>
+<wire x1="-4.826" y1="8.382" x2="-2.286" y2="8.382" width="0.8128" layer="21"/>
+<wire x1="-2.286" y1="8.382" x2="-2.286" y2="10.922" width="0.8128" layer="21"/>
+<wire x1="-2.286" y1="10.922" x2="-0.254" y2="10.922" width="0.8128" layer="21"/>
+<wire x1="-0.254" y1="10.922" x2="-0.254" y2="8.382" width="0.8128" layer="21"/>
+<wire x1="-0.254" y1="8.382" x2="2.286" y2="8.382" width="0.8128" layer="21"/>
+<wire x1="2.286" y1="8.382" x2="2.286" y2="10.922" width="0.8128" layer="21"/>
+<wire x1="2.286" y1="10.922" x2="4.572" y2="10.922" width="0.8128" layer="21"/>
+<wire x1="4.572" y1="10.922" x2="4.572" y2="7.112" width="0.8128" layer="21"/>
+<wire x1="-7.112" y1="6.096" x2="-7.112" y2="10.668" width="0.8128" layer="21"/>
+</package>
+<package name="SWRA117D_LEFT">
+<description>2.45GHz antenna as per TI Application Note SWRA117D</description>
+<wire x1="-0.5" y1="-0.4" x2="14.7" y2="-0.4" width="0" layer="20"/>
+<wire x1="14.7" y1="-0.4" x2="14.7" y2="5.7" width="0" layer="20"/>
+<wire x1="14.7" y1="5.7" x2="-0.5" y2="5.7" width="0" layer="20"/>
+<wire x1="-0.5" y1="5.7" x2="-0.5" y2="-0.4" width="0" layer="20"/>
+<pad name="GND" x="0.45" y="0.25" drill="0.8" shape="square"/>
+<smd name="RF" x="2.55" y="0.51" dx="1.016" dy="0.508" layer="1" rot="R90"/>
+<text x="4.5" y="1.4" size="0.6096" layer="25">2.45GHz Antenna</text>
+<text x="2.85" y="1.35" size="0.6096" layer="25" rot="R90">RF</text>
+<text x="0.75" y="1.35" size="0.6096" layer="25" rot="R90">GND</text>
+<text x="4.5" y="0.5" size="0.6096" layer="25">TI (SWRA117D)</text>
+<text x="0.635" y="3.175" size="1.016" layer="21">&gt;NAME</text>
+<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="39"/>
+<rectangle x1="-0.5" y1="0.5" x2="14.7" y2="5.7" layer="40"/>
+<polygon width="0" layer="1">
+<vertex x="0" y="0"/>
+<vertex x="0" y="5.4"/>
+<vertex x="5" y="5.4"/>
+<vertex x="5" y="2.76"/>
+<vertex x="7" y="2.76"/>
+<vertex x="7" y="5.4"/>
+<vertex x="9.7" y="5.4"/>
+<vertex x="9.7" y="2.76"/>
+<vertex x="11.7" y="2.76"/>
+<vertex x="11.7" y="5.4"/>
+<vertex x="14.4" y="5.4"/>
+<vertex x="14.4" y="0.96"/>
+<vertex x="13.9" y="0.96"/>
+<vertex x="13.9" y="4.9"/>
+<vertex x="12.2" y="4.9"/>
+<vertex x="12.2" y="2.26"/>
+<vertex x="9.2" y="2.26"/>
+<vertex x="9.2" y="4.9"/>
+<vertex x="7.5" y="4.9"/>
+<vertex x="7.5" y="2.26"/>
+<vertex x="4.5" y="2.26"/>
+<vertex x="4.5" y="4.9"/>
+<vertex x="2.8" y="4.9"/>
+<vertex x="2.8" y="0"/>
+<vertex x="2.3" y="0"/>
+<vertex x="2.3" y="4.9"/>
+<vertex x="0.9" y="4.9"/>
+<vertex x="0.9" y="0"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP01">
@@ -1553,6 +1672,46 @@ ESP8266 module</description>
 <pin name="TX" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
 <text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="ESP-M2">
+<wire x1="-20.32" y1="27.94" x2="-20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-20.32" x2="20.32" y2="27.94" width="0.254" layer="94"/>
+<wire x1="20.32" y1="27.94" x2="-20.32" y2="27.94" width="0.254" layer="94"/>
+<pin name="EN" x="-25.4" y="7.62" length="middle"/>
+<pin name="IO14" x="-25.4" y="2.54" length="middle"/>
+<pin name="IO13" x="-25.4" y="-7.62" length="middle"/>
+<pin name="VCC" x="-25.4" y="-17.78" length="middle"/>
+<pin name="ADC" x="-25.4" y="12.7" length="middle"/>
+<pin name="IO12" x="-25.4" y="-2.54" length="middle"/>
+<pin name="IO15" x="-25.4" y="-12.7" length="middle"/>
+<pin name="GND" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="IO2" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="IO0" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="IO4" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="IO5" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="RX" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="TX" x="25.4" y="12.7" length="middle" rot="R180"/>
+<pin name="RST" x="25.4" y="17.78" length="middle" rot="R180"/>
+</symbol>
+<symbol name="ESP-M3">
+<description>ESP8285 Model M3</description>
+<wire x1="-15.24" y1="10.16" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="20.32" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-17.78" x2="20.32" y2="10.16" width="0.254" layer="94"/>
+<wire x1="20.32" y1="10.16" x2="-15.24" y2="10.16" width="0.254" layer="94"/>
+<pin name="IO4" x="-20.32" y="5.08" length="middle"/>
+<pin name="IO0" x="-20.32" y="0" length="middle"/>
+<pin name="IO2" x="-20.32" y="-5.08" length="middle"/>
+<pin name="RST" x="-10.16" y="-22.86" length="middle" rot="R90"/>
+<pin name="RXD" x="-5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="TXD" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="GND" x="5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="VCC" x="10.16" y="-22.86" length="middle" rot="R90"/>
+<pin name="EN" x="15.24" y="-22.86" length="middle" rot="R90"/>
+<pin name="IO13" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="IO14" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="IO16" x="25.4" y="5.08" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2276,6 +2435,63 @@ ESP8266 module</description>
 <connect gate="D1" pin="RESET" pad="RESET"/>
 <connect gate="D1" pin="RX" pad="RX"/>
 <connect gate="D1" pin="TX" pad="TX"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP-M2">
+<description>ESP8285 Module - M2</description>
+<gates>
+<gate name="G$1" symbol="ESP-M2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ESP-M2">
+<connects>
+<connect gate="G$1" pin="ADC" pad="ADC"/>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IO0" pad="0"/>
+<connect gate="G$1" pin="IO12" pad="12"/>
+<connect gate="G$1" pin="IO13" pad="13"/>
+<connect gate="G$1" pin="IO14" pad="14"/>
+<connect gate="G$1" pin="IO15" pad="15"/>
+<connect gate="G$1" pin="IO2" pad="2"/>
+<connect gate="G$1" pin="IO4" pad="4"/>
+<connect gate="G$1" pin="IO5" pad="5"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RX"/>
+<connect gate="G$1" pin="TX" pad="TX"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ESP-M3">
+<description>ESP8285 Model M3</description>
+<gates>
+<gate name="G$1" symbol="ESP-M3" x="-2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ESP-M3">
+<connects>
+<connect gate="G$1" pin="EN" pad="EN"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="IO0" pad="0"/>
+<connect gate="G$1" pin="IO13" pad="13"/>
+<connect gate="G$1" pin="IO14" pad="14"/>
+<connect gate="G$1" pin="IO16" pad="16"/>
+<connect gate="G$1" pin="IO2" pad="2"/>
+<connect gate="G$1" pin="IO4" pad="4"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RXD" pad="RXD"/>
+<connect gate="G$1" pin="TXD" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
