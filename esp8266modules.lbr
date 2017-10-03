@@ -295,8 +295,8 @@
 <pad name="GPIO15" x="6.9" y="-6.2" drill="0.7" shape="offset"/>
 <pad name="GPIO2" x="6.9" y="-4.2" drill="0.7" shape="offset"/>
 <pad name="GPIO0" x="6.9" y="-2.2" drill="0.7" shape="offset"/>
-<pad name="GPIO5" x="6.9" y="-0.2" drill="0.7" shape="offset"/>
-<pad name="GPIO4" x="6.9" y="1.8" drill="0.7" shape="offset"/>
+<pad name="GPIO4" x="6.9" y="-0.2" drill="0.7" shape="offset"/>
+<pad name="GPIO5" x="6.9" y="1.8" drill="0.7" shape="offset"/>
 <pad name="RX" x="6.9" y="3.8" drill="0.7" shape="offset"/>
 <pad name="TX" x="6.9" y="5.8" drill="0.7" shape="offset"/>
 <pad name="VCC" x="-7.1" y="-8.2" drill="0.7" shape="offset" rot="R180"/>
@@ -508,8 +508,8 @@
 <smd name="VCC" x="-8.3" y="-8.2" dx="3" dy="1.2" layer="1"/>
 <smd name="TXD0" x="8.1" y="5.8" dx="3" dy="1.2" layer="1"/>
 <smd name="RXD0" x="8.1" y="3.8" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO4" x="8.1" y="1.8" dx="3" dy="1.2" layer="1"/>
-<smd name="GPIO5" x="8.1" y="-0.2" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO5" x="8.1" y="1.8" dx="3" dy="1.2" layer="1"/>
+<smd name="GPIO4" x="8.1" y="-0.2" dx="3" dy="1.2" layer="1"/>
 <smd name="GPIO0" x="8.1" y="-2.2" dx="3" dy="1.2" layer="1"/>
 <smd name="GPIO2" x="8.1" y="-4.2" dx="3" dy="1.2" layer="1"/>
 <smd name="GPIO15" x="8.1" y="-6.2" dx="3" dy="1.2" layer="1"/>
@@ -614,8 +614,8 @@
 <circle x="7.1" y="11.4" radius="0.1" width="0.127" layer="21"/>
 <smd name="TX" x="8.2" y="5.8" dx="2.5" dy="1" layer="1" roundness="17"/>
 <smd name="RX" x="8.2" y="3.8" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO4" x="8.2" y="1.8" dx="2.5" dy="1" layer="1"/>
-<smd name="GPIO5" x="8.2" y="-0.2" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO5" x="8.2" y="1.8" dx="2.5" dy="1" layer="1"/>
+<smd name="GPIO4" x="8.2" y="-0.2" dx="2.5" dy="1" layer="1"/>
 <smd name="GPIO0" x="8.2" y="-2.2" dx="2.5" dy="1" layer="1"/>
 <smd name="GPIO2" x="8.2" y="-4.2" dx="2.5" dy="1" layer="1"/>
 <smd name="GPIO15" x="8.2" y="-6.2" dx="2.5" dy="1" layer="1"/>
@@ -1238,8 +1238,8 @@ SWITCH</text>
 <pin name="GPIO15" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="GPIO2" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="GPIO0" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO5" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO4" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO4" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="RX" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="TX" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
 <text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
@@ -1413,8 +1413,8 @@ SWITCH</text>
 <pin name="GPIO15" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
 <pin name="GPIO2" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="GPIO0" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO5" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="GPIO4" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO4" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="GPIO5" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
 <pin name="RX" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
 <pin name="TX" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
 <text x="-12.7" y="10.16" size="1.778" layer="95">&gt;Name</text>
