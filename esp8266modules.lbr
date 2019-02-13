@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -1070,6 +1071,82 @@ MICRO</text>
 <text x="-8.255" y="-15.24" size="0.635" layer="25" align="center">RESET
 SWITCH</text>
 </package>
+<package name="WEMOS-D1-MINI-ESP32">
+<description>WeMos.cc
+D1 mini
+ESP8266 module</description>
+<wire x1="9.17" y1="15.216" x2="9.17" y2="9.416" width="0.127" layer="21"/>
+<wire x1="-6.83" y1="9.416" x2="-6.83" y2="15.216" width="0.127" layer="21"/>
+<wire x1="-6.83" y1="15.216" x2="9.17" y2="15.216" width="0.127" layer="21"/>
+<wire x1="-6.83" y1="9.416" x2="9.17" y2="9.416" width="0.127" layer="21"/>
+<pad name="3.3V" x="-10.16" y="-10.16" drill="1.016" diameter="1.8288"/>
+<pad name="IO5" x="-10.16" y="-7.62" drill="1.016" diameter="1.8288"/>
+<pad name="IO23" x="-10.16" y="-5.08" drill="1.016" diameter="1.8288"/>
+<pad name="IO19" x="-10.16" y="-2.54" drill="1.016" diameter="1.8288"/>
+<pad name="IO18" x="-10.16" y="0" drill="1.016" diameter="1.8288"/>
+<pad name="IO26" x="-10.16" y="2.54" drill="1.016" diameter="1.8288"/>
+<pad name="SVP" x="-10.16" y="5.08" drill="1.016" diameter="1.8288"/>
+<pad name="RST" x="-10.16" y="7.62" drill="1.016" diameter="1.8288"/>
+<pad name="VCC" x="12.7" y="-10.16" drill="1.016" diameter="1.8288" rot="R180"/>
+<pad name="GND3" x="12.7" y="-7.62" drill="1.016" diameter="1.8288" rot="R180"/>
+<pad name="IO16" x="12.7" y="-5.08" drill="1.016" diameter="1.8288" rot="R180"/>
+<pad name="IO17" x="12.7" y="-2.54" drill="1.016" diameter="1.8288" rot="R180"/>
+<pad name="IO21" x="12.7" y="0" drill="1.016" diameter="1.8288" rot="R180"/>
+<pad name="IO22" x="12.7" y="2.54" drill="1.016" diameter="1.8288" rot="R180"/>
+<pad name="RXD" x="12.7" y="5.08" drill="1.016" diameter="1.8288" rot="R180"/>
+<pad name="TXD" x="12.7" y="7.62" drill="1.016" diameter="1.8288" rot="R180"/>
+<text x="-2.54" y="-6.35" size="1.4224" layer="21">WeMos.cc
+D1 mini</text>
+<text x="15.24" y="-22.86" size="1.4224" layer="25" align="bottom-right">&gt;Name</text>
+<wire x1="-6.8326" y1="9.4234" x2="-6.8326" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="9.144" y1="9.4234" x2="9.1694" y2="9.4234" width="0.127" layer="21"/>
+<wire x1="9.1694" y1="9.4234" x2="9.1694" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="16.51" y1="12.7" x2="16.51" y2="-24.13" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="15.24" x2="13.97" y2="15.24" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="12.7" x2="-11.43" y2="15.24" width="0.127" layer="21" curve="-90"/>
+<wire x1="13.97" y1="15.24" x2="16.51" y2="12.7" width="0.127" layer="21" curve="-90"/>
+<wire x1="-13.97" y1="12.7" x2="-13.97" y2="-24.13" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-24.13" x2="16.51" y2="-24.13" width="0.127" layer="21"/>
+<wire x1="-6.8326" y1="-8.89" x2="9.144" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-24.13" x2="5.08" y2="-24.13" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-24.13" x2="5.08" y2="-19.05" width="0.2032" layer="21"/>
+<wire x1="5.08" y1="-19.05" x2="-2.54" y2="-19.05" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-19.05" x2="-2.54" y2="-24.13" width="0.2032" layer="21"/>
+<text x="1.27" y="12.7" size="1.4224" layer="25" align="center">ANTENNA
+KEEP CLEAR</text>
+<text x="1.27" y="-21.59" size="1.016" layer="25" align="center">USB
+MICRO</text>
+<wire x1="-8.89" y1="-17.78" x2="-12.7" y2="-17.78" width="0.2032" layer="21"/>
+<wire x1="-12.7" y1="-17.78" x2="-12.7" y2="-22.86" width="0.2032" layer="21"/>
+<wire x1="-12.7" y1="-22.86" x2="-8.89" y2="-22.86" width="0.2032" layer="21"/>
+<wire x1="-8.89" y1="-22.86" x2="-8.89" y2="-17.78" width="0.2032" layer="21"/>
+<text x="-10.795" y="-20.32" size="0.635" layer="25" align="center">RESET
+SWITCH</text>
+<pad name="TD0" x="12.7" y="-12.7" drill="1.016" diameter="1.8288"/>
+<pad name="SD0" x="12.7" y="-15.24" drill="1.016" diameter="1.8288" shape="square"/>
+<pad name="TCK" x="-10.16" y="-12.7" drill="1.016" diameter="1.8288"/>
+<pad name="SD3" x="-10.16" y="-15.24" drill="1.016" diameter="1.8288"/>
+<pad name="GND4" x="15.24" y="7.62" drill="1.016" diameter="1.8288"/>
+<pad name="IO27" x="15.24" y="5.08" drill="1.016" diameter="1.8288"/>
+<pad name="IO25" x="15.24" y="2.54" drill="1.016" diameter="1.8288"/>
+<pad name="IO32" x="15.24" y="0" drill="1.016" diameter="1.8288"/>
+<pad name="TDI" x="15.24" y="-2.54" drill="1.016" diameter="1.8288"/>
+<pad name="IO4" x="15.24" y="-5.08" drill="1.016" diameter="1.8288"/>
+<pad name="IO0" x="15.24" y="-7.62" drill="1.016" diameter="1.8288"/>
+<pad name="IO2" x="15.24" y="-10.16" drill="1.016" diameter="1.8288"/>
+<pad name="SD1" x="15.24" y="-12.7" drill="1.016" diameter="1.8288"/>
+<pad name="CLK" x="15.24" y="-15.24" drill="1.016" diameter="1.8288"/>
+<pad name="NC2" x="-12.7" y="-10.16" drill="1.016" diameter="1.8288"/>
+<pad name="TMS" x="-12.7" y="-7.62" drill="1.016" diameter="1.8288"/>
+<pad name="IO34" x="-12.7" y="-5.08" drill="1.016" diameter="1.8288"/>
+<pad name="IO33" x="-12.7" y="-2.54" drill="1.016" diameter="1.8288"/>
+<pad name="IO35" x="-12.7" y="0" drill="1.016" diameter="1.8288"/>
+<pad name="SVN" x="-12.7" y="2.54" drill="1.016" diameter="1.8288"/>
+<pad name="NC1" x="-12.7" y="5.08" drill="1.016" diameter="1.8288"/>
+<pad name="GND1" x="-12.7" y="7.62" drill="1.016" diameter="1.8288"/>
+<pad name="SD2" x="-12.7" y="-12.7" drill="1.016" diameter="1.8288"/>
+<pad name="GND2" x="-12.7" y="-15.24" drill="1.016" diameter="1.8288" shape="square"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ESP01">
@@ -1553,6 +1630,53 @@ ESP8266 module</description>
 <pin name="TX" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
 <text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;Value</text>
+</symbol>
+<symbol name="WEMOS-D1-MINI-ESP32">
+<description>WeMos.cc
+D1 mini
+ESP8266 module</description>
+<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-35.56" x2="12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-35.56" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<pin name="RESET" x="-15.24" y="10.16" visible="pin" length="middle"/>
+<pin name="SVP" x="-15.24" y="7.62" visible="pin" length="middle"/>
+<pin name="IO26" x="-15.24" y="5.08" visible="pin" length="middle"/>
+<pin name="IO18" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="IO19" x="-15.24" y="0" visible="pin" length="middle"/>
+<pin name="IO23" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="IO5" x="-15.24" y="-5.08" visible="pin" length="middle"/>
+<pin name="3V3" x="-15.24" y="-7.62" visible="pin" length="middle"/>
+<pin name="VCC" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="IO16" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="IO17" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="IO21" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="IO22" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="RX" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="TX" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-38.1" size="1.778" layer="96">&gt;Value</text>
+<pin name="TCK" x="-15.24" y="-10.16" length="middle"/>
+<pin name="SD3" x="-15.24" y="-12.7" length="middle"/>
+<pin name="NC" x="-15.24" y="-15.24" length="middle"/>
+<pin name="SVN" x="-15.24" y="-17.78" length="middle"/>
+<pin name="IO35" x="-15.24" y="-20.32" length="middle"/>
+<pin name="IO33" x="-15.24" y="-22.86" length="middle"/>
+<pin name="IO34" x="-15.24" y="-25.4" length="middle"/>
+<pin name="TMS" x="-15.24" y="-27.94" length="middle"/>
+<pin name="SD2" x="-15.24" y="-30.48" length="middle"/>
+<pin name="TD0" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="SD0" x="17.78" y="-12.7" length="middle" rot="R180"/>
+<pin name="IO27" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="IO25" x="17.78" y="-17.78" length="middle" rot="R180"/>
+<pin name="IO32" x="17.78" y="-20.32" length="middle" rot="R180"/>
+<pin name="TDI" x="17.78" y="-22.86" length="middle" rot="R180"/>
+<pin name="IO4" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="IO0" x="17.78" y="-27.94" length="middle" rot="R180"/>
+<pin name="IO2" x="17.78" y="-30.48" length="middle" rot="R180"/>
+<pin name="SD1" x="17.78" y="-33.02" length="middle" rot="R180"/>
+<pin name="CLK" x="-15.24" y="-33.02" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -2276,6 +2400,59 @@ ESP8266 module</description>
 <connect gate="D1" pin="RESET" pad="RESET"/>
 <connect gate="D1" pin="RX" pad="RX"/>
 <connect gate="D1" pin="TX" pad="TX"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WEMOS-D1-MINI-ESP32" prefix="WEMOS" uservalue="yes">
+<description>WeMos.cc
+D1 mini
+ESP8266 module</description>
+<gates>
+<gate name="G$1" symbol="WEMOS-D1-MINI-ESP32" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WEMOS-D1-MINI-ESP32">
+<connects>
+<connect gate="G$1" pin="3V3" pad="3.3V"/>
+<connect gate="G$1" pin="CLK" pad="CLK"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4"/>
+<connect gate="G$1" pin="IO0" pad="IO0"/>
+<connect gate="G$1" pin="IO16" pad="IO16"/>
+<connect gate="G$1" pin="IO17" pad="IO17"/>
+<connect gate="G$1" pin="IO18" pad="IO18"/>
+<connect gate="G$1" pin="IO19" pad="IO19"/>
+<connect gate="G$1" pin="IO2" pad="IO2"/>
+<connect gate="G$1" pin="IO21" pad="IO21"/>
+<connect gate="G$1" pin="IO22" pad="IO22"/>
+<connect gate="G$1" pin="IO23" pad="IO23"/>
+<connect gate="G$1" pin="IO25" pad="IO25"/>
+<connect gate="G$1" pin="IO26" pad="IO26"/>
+<connect gate="G$1" pin="IO27" pad="IO27"/>
+<connect gate="G$1" pin="IO32" pad="IO32"/>
+<connect gate="G$1" pin="IO33" pad="IO33"/>
+<connect gate="G$1" pin="IO34" pad="IO34"/>
+<connect gate="G$1" pin="IO35" pad="IO35"/>
+<connect gate="G$1" pin="IO4" pad="IO4"/>
+<connect gate="G$1" pin="IO5" pad="IO5"/>
+<connect gate="G$1" pin="NC" pad="NC1 NC2"/>
+<connect gate="G$1" pin="RESET" pad="RST"/>
+<connect gate="G$1" pin="RX" pad="RXD"/>
+<connect gate="G$1" pin="SD0" pad="SD0"/>
+<connect gate="G$1" pin="SD1" pad="SD1"/>
+<connect gate="G$1" pin="SD2" pad="SD2"/>
+<connect gate="G$1" pin="SD3" pad="SD3"/>
+<connect gate="G$1" pin="SVN" pad="SVN"/>
+<connect gate="G$1" pin="SVP" pad="SVP"/>
+<connect gate="G$1" pin="TCK" pad="TCK"/>
+<connect gate="G$1" pin="TD0" pad="TD0"/>
+<connect gate="G$1" pin="TDI" pad="TDI"/>
+<connect gate="G$1" pin="TMS" pad="TMS"/>
+<connect gate="G$1" pin="TX" pad="TXD"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
