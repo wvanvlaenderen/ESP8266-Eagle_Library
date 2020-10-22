@@ -1007,62 +1007,98 @@
 <description>WeMos.cc
 D1 mini
 ESP8266 module</description>
-<wire x1="-8.1" y1="17.756" x2="7.9" y2="17.756" width="0.127" layer="21"/>
-<pad name="5V" x="11.43" y="-7.62" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="GND" x="11.43" y="-5.08" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D4" x="11.43" y="-2.54" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D3" x="11.43" y="0" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D2" x="11.43" y="2.54" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="D1" x="11.43" y="5.08" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="RX" x="11.43" y="7.62" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="TX" x="11.43" y="10.16" drill="1.016" diameter="1.8288" shape="long"/>
-<pad name="3V3" x="-11.43" y="-7.62" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D8" x="-11.43" y="-5.08" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D7" x="-11.43" y="-2.54" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D6" x="-11.43" y="0" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D5" x="-11.43" y="2.54" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="D0" x="-11.43" y="5.08" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="A0" x="-11.43" y="7.62" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<pad name="RESET" x="-11.43" y="10.16" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
-<text x="11.43" y="-15.24" size="1.4224" layer="25" align="bottom-right">&gt;Name</text>
-<wire x1="-10.16" y1="17.78" x2="10.16" y2="17.78" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="15.24" x2="-10.16" y2="17.78" width="0.127" layer="21" curve="-90"/>
-<wire x1="10.16" y1="17.78" x2="12.7" y2="15.24" width="0.127" layer="21" curve="-90"/>
-<wire x1="-12.7" y1="-16.51" x2="12.7" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="4.6" y1="34.266" x2="20.6" y2="34.266" width="0.127" layer="21"/>
+<pad name="5V" x="24.13" y="8.89" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="GND" x="24.13" y="11.43" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="D4" x="24.13" y="13.97" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="D3" x="24.13" y="16.51" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="D2" x="24.13" y="19.05" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="D1" x="24.13" y="21.59" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="RX" x="24.13" y="24.13" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="TX" x="24.13" y="26.67" drill="1.016" diameter="1.8288" shape="long"/>
+<pad name="3V3" x="1.27" y="8.89" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="D8" x="1.27" y="11.43" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="D7" x="1.27" y="13.97" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="D6" x="1.27" y="16.51" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="D5" x="1.27" y="19.05" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="D0" x="1.27" y="21.59" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="A0" x="1.27" y="24.13" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<pad name="RESET" x="1.27" y="26.67" drill="1.016" diameter="1.8288" shape="long" rot="R180"/>
+<text x="24.13" y="1.27" size="1.4224" layer="25" align="bottom-right">&gt;Name</text>
+<wire x1="2.54" y1="34.29" x2="22.86" y2="34.29" width="0.127" layer="21"/>
+<wire x1="0" y1="31.75" x2="2.54" y2="34.29" width="0.127" layer="21" curve="-90"/>
+<wire x1="22.86" y1="34.29" x2="25.4" y2="31.75" width="0.127" layer="21" curve="-90"/>
+<wire x1="2.54" y1="0" x2="7.4" y2="0" width="0.127" layer="21"/>
+<wire x1="16.4" y1="0" x2="25.4" y2="0" width="0.127" layer="21"/>
 <polygon width="0.127" layer="41">
-<vertex x="-12.7" y="11.43"/>
-<vertex x="-12.7" y="15.24" curve="-90"/>
-<vertex x="-10.16" y="17.78"/>
-<vertex x="10.16" y="17.78" curve="-90"/>
-<vertex x="12.7" y="15.24"/>
-<vertex x="12.7" y="11.43"/>
+<vertex x="0" y="27.94"/>
+<vertex x="0" y="31.75" curve="-90"/>
+<vertex x="2.54" y="34.29"/>
+<vertex x="22.86" y="34.29" curve="-90"/>
+<vertex x="25.4" y="31.75"/>
+<vertex x="25.4" y="27.94"/>
 </polygon>
 <polygon width="0.127" layer="42">
-<vertex x="-12.7" y="11.43"/>
-<vertex x="-12.7" y="15.24" curve="-90"/>
-<vertex x="-10.16" y="17.78"/>
-<vertex x="10.16" y="17.78" curve="-90"/>
-<vertex x="12.7" y="15.24"/>
-<vertex x="12.7" y="11.43"/>
+<vertex x="0" y="27.94"/>
+<vertex x="0" y="31.75" curve="-90"/>
+<vertex x="2.54" y="34.29"/>
+<vertex x="22.86" y="34.29" curve="-90"/>
+<vertex x="25.4" y="31.75"/>
+<vertex x="25.4" y="27.94"/>
 </polygon>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="11.176" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="9.144" x2="-12.7" y2="8.636" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="6.604" x2="-12.7" y2="6.096" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="4.064" x2="-12.7" y2="3.556" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="1.524" x2="-12.7" y2="1.016" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-1.016" x2="-12.7" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-3.556" x2="-12.7" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-6.096" x2="-12.7" y2="-6.604" width="0.127" layer="21"/>
-<wire x1="12.7" y1="9.144" x2="12.7" y2="8.636" width="0.127" layer="21"/>
-<wire x1="12.7" y1="6.604" x2="12.7" y2="6.096" width="0.127" layer="21"/>
-<wire x1="12.7" y1="4.064" x2="12.7" y2="3.556" width="0.127" layer="21"/>
-<wire x1="12.7" y1="1.524" x2="12.7" y2="1.016" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-1.016" x2="12.7" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-3.556" x2="12.7" y2="-4.064" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-6.096" x2="12.7" y2="-6.604" width="0.127" layer="21"/>
-<wire x1="12.7" y1="15.24" x2="12.7" y2="11.176" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="-16.51" x2="-12.7" y2="-8.636" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-16.51" x2="12.7" y2="-8.636" width="0.127" layer="21"/>
+<wire x1="0" y1="31.75" x2="0" y2="27.686" width="0.127" layer="21"/>
+<wire x1="0" y1="25.654" x2="0" y2="25.146" width="0.127" layer="21"/>
+<wire x1="0" y1="23.114" x2="0" y2="22.606" width="0.127" layer="21"/>
+<wire x1="0" y1="20.574" x2="0" y2="20.066" width="0.127" layer="21"/>
+<wire x1="0" y1="18.034" x2="0" y2="17.526" width="0.127" layer="21"/>
+<wire x1="0" y1="15.494" x2="0" y2="14.986" width="0.127" layer="21"/>
+<wire x1="0" y1="12.954" x2="0" y2="12.446" width="0.127" layer="21"/>
+<wire x1="0" y1="10.414" x2="0" y2="9.906" width="0.127" layer="21"/>
+<wire x1="25.4" y1="25.654" x2="25.4" y2="25.146" width="0.127" layer="21"/>
+<wire x1="25.4" y1="23.114" x2="25.4" y2="22.606" width="0.127" layer="21"/>
+<wire x1="25.4" y1="20.574" x2="25.4" y2="20.066" width="0.127" layer="21"/>
+<wire x1="25.4" y1="18.034" x2="25.4" y2="17.526" width="0.127" layer="21"/>
+<wire x1="25.4" y1="15.494" x2="25.4" y2="14.986" width="0.127" layer="21"/>
+<wire x1="25.4" y1="12.954" x2="25.4" y2="12.446" width="0.127" layer="21"/>
+<wire x1="25.4" y1="10.414" x2="25.4" y2="9.906" width="0.127" layer="21"/>
+<wire x1="25.4" y1="31.75" x2="25.4" y2="27.686" width="0.127" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.127" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="6.35" width="0.127" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="0" y2="7.62" width="0.127" layer="21"/>
+<wire x1="0" y1="7.62" x2="0" y2="7.874" width="0.127" layer="21"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="7.874" width="0.127" layer="21"/>
+<wire x1="5.715" y1="27.94" x2="5.715" y2="33.02" width="0.127" layer="51"/>
+<wire x1="5.715" y1="33.02" x2="6.985" y2="33.02" width="0.127" layer="51"/>
+<wire x1="6.985" y1="33.02" x2="6.985" y2="27.94" width="0.127" layer="51"/>
+<wire x1="6.985" y1="33.02" x2="9.525" y2="33.02" width="0.127" layer="51"/>
+<wire x1="9.525" y1="33.02" x2="9.525" y2="30.48" width="0.127" layer="51"/>
+<wire x1="9.525" y1="30.48" x2="12.065" y2="30.48" width="0.127" layer="51"/>
+<wire x1="12.065" y1="30.48" x2="12.065" y2="33.02" width="0.127" layer="51"/>
+<wire x1="12.065" y1="33.02" x2="14.605" y2="33.02" width="0.127" layer="51"/>
+<wire x1="14.605" y1="33.02" x2="14.605" y2="30.48" width="0.127" layer="51"/>
+<wire x1="14.605" y1="30.48" x2="17.145" y2="30.48" width="0.127" layer="51"/>
+<wire x1="17.145" y1="30.48" x2="17.145" y2="33.02" width="0.127" layer="51"/>
+<wire x1="17.145" y1="33.02" x2="19.685" y2="33.02" width="0.127" layer="51"/>
+<wire x1="19.685" y1="33.02" x2="19.685" y2="29.21" width="0.127" layer="51"/>
+<wire x1="5.715" y1="27.94" x2="5.715" y2="11.43" width="0.127" layer="51"/>
+<wire x1="5.715" y1="11.43" x2="19.685" y2="11.43" width="0.127" layer="51"/>
+<wire x1="19.685" y1="11.43" x2="19.685" y2="27.94" width="0.127" layer="51"/>
+<wire x1="19.685" y1="27.94" x2="5.715" y2="27.94" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="1.27" y2="3.81" width="0.127" layer="21"/>
+<wire x1="1.27" y1="3.81" x2="1.27" y2="2.54" width="0.127" layer="21"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+<polygon width="0.127" layer="43">
+<vertex x="0" y="27.94"/>
+<vertex x="0" y="31.75" curve="-90"/>
+<vertex x="2.54" y="34.29"/>
+<vertex x="22.86" y="34.29" curve="-90"/>
+<vertex x="25.4" y="31.75"/>
+<vertex x="25.4" y="27.94"/>
+</polygon>
+<wire x1="16.4" y1="0" x2="16.4" y2="1" width="0.127" layer="21"/>
+<wire x1="16.4" y1="1" x2="7.4" y2="1" width="0.127" layer="21"/>
+<wire x1="7.4" y1="1" x2="7.4" y2="0" width="0.127" layer="21"/>
 </package>
 <package name="ESP07-16PIN-SMD">
 <description>ESP8266 Module ESP-07 - 16 pins</description>
@@ -1733,28 +1769,28 @@ SWITCH</text>
 <description>WeMos.cc
 D1 mini
 ESP8266 module</description>
-<wire x1="-10.16" y1="12.7" x2="-10.16" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
-<pin name="RESET" x="-15.24" y="10.16" visible="pin" length="middle"/>
-<pin name="A0" x="-15.24" y="7.62" visible="pin" length="middle"/>
-<pin name="D0" x="-15.24" y="5.08" visible="pin" length="middle"/>
-<pin name="D5" x="-15.24" y="2.54" visible="pin" length="middle"/>
-<pin name="D6" x="-15.24" y="0" visible="pin" length="middle"/>
-<pin name="D7" x="-15.24" y="-2.54" visible="pin" length="middle"/>
-<pin name="D8" x="-15.24" y="-5.08" visible="pin" length="middle"/>
-<pin name="3V3" x="-15.24" y="-7.62" visible="pin" length="middle"/>
-<pin name="5V" x="17.78" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="D4" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="D3" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="D2" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="D1" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="RX" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="TX" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
-<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;Value</text>
+<wire x1="0" y1="33.02" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="20.32" y2="33.02" width="0.254" layer="94"/>
+<wire x1="20.32" y1="33.02" x2="0" y2="33.02" width="0.254" layer="94"/>
+<pin name="!RESET" x="-5.08" y="12.7" visible="pin" length="middle"/>
+<pin name="A0" x="25.4" y="30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="D0" x="25.4" y="27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="D5" x="25.4" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="D6" x="25.4" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D7" x="25.4" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D8" x="25.4" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="3V3" x="-5.08" y="25.4" visible="pin" length="middle" direction="pwr"/>
+<pin name="5V" x="-5.08" y="30.48" visible="pin" length="middle" direction="pwr"/>
+<pin name="GND" x="-5.08" y="2.54" visible="pin" length="middle" direction="pwr"/>
+<pin name="D4" x="25.4" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="D3" x="25.4" y="20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D2" x="25.4" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="D1" x="25.4" y="25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="RX" x="25.4" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="TX" x="25.4" y="5.08" visible="pin" length="middle" rot="R180"/>
+<text x="0" y="34.29" size="1.778" layer="95">&gt;Name</text>
+<text x="0" y="-1.27" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 <symbol name="WEMOS-D1-MINI-ESP32">
 <description>WeMos.cc
@@ -2580,7 +2616,7 @@ It can be soldered to PCB or used with breadboard. Small U.FL connector is provi
 </device>
 </devices>
 </deviceset>
-<deviceset name="WEMOS-D1-MINI" prefix="WEMOS" uservalue="yes">
+<deviceset name="WEMOS-D1-MINI" prefix="U" uservalue="yes">
 <description>WeMos.cc
 D1 mini
 ESP8266 module</description>
@@ -2590,6 +2626,7 @@ ESP8266 module</description>
 <devices>
 <device name="" package="WEMOS-D1-MINI">
 <connects>
+<connect gate="D1" pin="!RESET" pad="RESET"/>
 <connect gate="D1" pin="3V3" pad="3V3"/>
 <connect gate="D1" pin="5V" pad="5V"/>
 <connect gate="D1" pin="A0" pad="A0"/>
@@ -2603,12 +2640,13 @@ ESP8266 module</description>
 <connect gate="D1" pin="D7" pad="D7"/>
 <connect gate="D1" pin="D8" pad="D8"/>
 <connect gate="D1" pin="GND" pad="GND"/>
-<connect gate="D1" pin="RESET" pad="RESET"/>
 <connect gate="D1" pin="RX" pad="RX"/>
 <connect gate="D1" pin="TX" pad="TX"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="VALUE" value="Wemos D1 Mini" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
